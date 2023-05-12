@@ -1,0 +1,12 @@
+{
+
+    "spark_conf" : {
+        "master": "local[*]",
+        "appname": "CFPartners"
+    },
+
+    "log" : {
+        "level": "ERROR"
+    }
+
+}

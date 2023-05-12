@@ -1,0 +1,46 @@
+23/05/12 22:57:53 INFO Worker: Started daemon with process name: 10@5b3a7851b2cc
+23/05/12 22:57:53 INFO SignalUtils: Registering signal handler for TERM
+23/05/12 22:57:53 INFO SignalUtils: Registering signal handler for HUP
+23/05/12 22:57:53 INFO SignalUtils: Registering signal handler for INT
+23/05/12 22:57:54 INFO Worker: Started daemon with process name: 8@b129856843da
+23/05/12 22:57:54 INFO SignalUtils: Registering signal handler for TERM
+23/05/12 22:57:54 INFO SignalUtils: Registering signal handler for HUP
+23/05/12 22:57:54 INFO SignalUtils: Registering signal handler for INT
+23/05/12 22:57:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+23/05/12 22:57:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+23/05/12 22:57:56 INFO SecurityManager: Changing view acls to: root
+23/05/12 22:57:56 INFO SecurityManager: Changing modify acls to: root
+23/05/12 22:57:56 INFO SecurityManager: Changing view acls groups to: 
+23/05/12 22:57:56 INFO SecurityManager: Changing modify acls groups to: 
+23/05/12 22:57:56 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+23/05/12 22:57:57 INFO SecurityManager: Changing view acls to: root
+23/05/12 22:57:57 INFO SecurityManager: Changing modify acls to: root
+23/05/12 22:57:57 INFO SecurityManager: Changing view acls groups to: 
+23/05/12 22:57:57 INFO SecurityManager: Changing modify acls groups to: 
+23/05/12 22:57:57 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+23/05/12 22:57:58 INFO Utils: Successfully started service 'sparkWorker' on port 7000.
+23/05/12 22:57:58 INFO Worker: Worker decommissioning not enabled.
+23/05/12 22:57:58 INFO Utils: Successfully started service 'sparkWorker' on port 7000.
+23/05/12 22:57:58 INFO Worker: Worker decommissioning not enabled.
+23/05/12 22:57:59 INFO Worker: Starting Spark worker 172.31.0.4:7000 with 1 cores, 1024.0 MiB RAM
+23/05/12 22:57:59 INFO Worker: Running Spark version 3.3.1
+23/05/12 22:57:59 INFO Worker: Spark home: /opt/spark
+23/05/12 22:57:59 INFO ResourceUtils: ==============================================================
+23/05/12 22:57:59 INFO ResourceUtils: No custom resources configured for spark.worker.
+23/05/12 22:57:59 INFO ResourceUtils: ==============================================================
+23/05/12 22:57:59 INFO Worker: Starting Spark worker 172.31.0.5:7000 with 1 cores, 1024.0 MiB RAM
+23/05/12 22:57:59 INFO Worker: Running Spark version 3.3.1
+23/05/12 22:57:59 INFO Worker: Spark home: /opt/spark
+23/05/12 22:57:59 INFO ResourceUtils: ==============================================================
+23/05/12 22:57:59 INFO ResourceUtils: No custom resources configured for spark.worker.
+23/05/12 22:57:59 INFO ResourceUtils: ==============================================================
+23/05/12 22:58:00 INFO Utils: Successfully started service 'WorkerUI' on port 8080.
+23/05/12 22:58:00 INFO WorkerWebUI: Bound WorkerWebUI to spark-worker-b, and started at http://5b3a7851b2cc:8080
+23/05/12 22:58:00 INFO Worker: Connecting to master spark-master:7077...
+23/05/12 22:58:00 INFO Utils: Successfully started service 'WorkerUI' on port 8080.
+23/05/12 22:58:00 INFO WorkerWebUI: Bound WorkerWebUI to spark-worker-a, and started at http://b129856843da:8080
+23/05/12 22:58:00 INFO Worker: Connecting to master spark-master:7077...
+23/05/12 22:58:00 INFO TransportClientFactory: Successfully created connection to spark-master/172.31.0.3:7077 after 243 ms (0 ms spent in bootstraps)
+23/05/12 22:58:01 INFO TransportClientFactory: Successfully created connection to spark-master/172.31.0.3:7077 after 170 ms (0 ms spent in bootstraps)
+23/05/12 22:58:01 INFO Worker: Successfully registered with master spark://2c67e5c1ae24:7077
+23/05/12 22:58:01 INFO Worker: Successfully registered with master spark://2c67e5c1ae24:7077
