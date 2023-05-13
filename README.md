@@ -34,6 +34,12 @@ It also writes the console output to a log file for debugging and monitoring pur
 ***NOTE**: cf_in folder needs to be created manually under data folder. 
 
 
+**Application Readiness**:
+1. Create a docker image using `docker build -t cfp-apache-spark:3.3.1 .`
+2. Run docker-compose to create containers `docker-compose up -d`
+3. List the docker containers `docker ps`
+4. To enter a container `docker exec -ti <container id> /bin/bash`
+
 
 **Job Execution** - Place file(s) under cf_in folder and use below command to trigger a job run in spark master container
 
