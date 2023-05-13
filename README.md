@@ -34,6 +34,7 @@ It also writes the console output to a log file for debugging and monitoring pur
 ***NOTE**: cf_in folder needs to be created manually under data folder. 
 
 
+
 **Job Execution** - Place file(s) under cf_in folder and use below command to trigger a job run in spark master container
 
 /opt/spark/bin/spark-submit --packages io.delta:delta-core_2.12:1.2.1 --master spark://spark-master:7077 /opt/spark-apps/main.py -i "/opt/spark-data/cf_in" -o "/opt/spark-data/cf_out/delta/cf" -h "true"
